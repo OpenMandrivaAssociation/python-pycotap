@@ -34,6 +34,6 @@ rm -rf %{pypi_name}.egg-info
 %py_install
 
 %files
-%{_userdir}/COPYING
+%{_prefix}/COPYING
 %{python_sitelib}/%{pypi_name}
 %{python_sitelib}/%{pypi_name}-%{version}-py?.?.egg-info
