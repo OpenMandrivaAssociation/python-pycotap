@@ -2,7 +2,7 @@
 
 Name:           python-%{pypi_name}
 Version:        1.2.2
-Release:        2
+Release:        3
 Summary:        A tiny test runner that outputs TAP results to standard output
 Group:          Development/Python
 License:        MIT
