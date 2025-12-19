@@ -12,6 +12,7 @@ BuildArch:      noarch
 
 BuildRequires:  pkgconfig(python)
 BuildRequires:  python%{pyver}dist(setuptools)
+BuildRequires:  python%{pyver}dist(pip)
 %{?python_provide:%python_provide python3-%{pypi_name}}
 
 %description
